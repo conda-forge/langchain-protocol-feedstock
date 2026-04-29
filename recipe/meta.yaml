@@ -1,5 +1,5 @@
 {% set name = "langchain-protocol" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_protocol-{{ version }}.tar.gz
-  sha256: 7448ca507407a6aaa28a73884d74765540e65da891a14a6e062a196412bc554c
+  sha256: bc1e8553122e6ede310280462d5813023a172ff2785ccbbdec54d43f3a15e5f2
 
 build:
   noarch: python
