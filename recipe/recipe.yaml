@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: langchain-protocol
-  version: "0.0.21"
+  version: "0.0.22"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/langchain_protocol-${{ version }}.tar.gz
-  sha256: 04b3e80852233a8db39b39d3ad2438d892531dc0ecd41459e857a139ee0e601c
+  sha256: 61267bc9f478c9df35ccdafd9fdf556b2698435232d59def54b3809bb02585bb
 
 build:
   number: 0
